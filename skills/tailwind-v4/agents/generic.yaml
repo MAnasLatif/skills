@@ -1,0 +1,19 @@
+interface:
+  display_name: "tailwind-v4"
+  short_description: "Build scalable design systems with Tailwind CSS v4, design tokens, and component libraries."
+  default_prompt: "Describe the design system or component you want to build with Tailwind v4 (e.g. 'a themeable button with variants and dark mode')."
+skill:
+  name: "tailwind-v4"
+  entrypoint: "SKILL.md"
+  references:
+    - "references/advanced-patterns.md"
+    - "references/tailwind-reference.md"
+  triggers:
+    - "tailwind"
+    - "tailwindcss"
+    - "tailwind v4"
+    - "@theme"
+    - "design system"
+    - "design tokens"
+    - "oklch"
+    - "dark mode"
