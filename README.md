@@ -20,34 +20,6 @@ npx skills add MAnasLatif/skills --skills <skill-name>
 
 Currently, the following skills are available in this library:
 
-### `mal-ui`
-
-A skill for building React / Next.js user interfaces with **mal-ui**, the MAL Devs
-component library. Every component, hook, and type is available via `mal-ui/*`
-subpath imports, pre-wired to the MAL brand theme.
-
-Use this skill for components, layouts, forms with validation, charts, date pickers,
-modals, notifications, spotlight search, rich-text editing, dropzone uploads,
-carousels, navigation progress, schedules, and brand theming. It ensures correct
-subpath imports, provider setup (`MALUIProvider` + `malTheme`), peer dependencies,
-and brand colors.
-
-**To add this skill:**
-
-```bash
-npx skills add MAnasLatif/skills --skills mal-ui
-```
-
-**What's inside:**
-
-- `SKILL.md` — golden rules, setup, subpath map, branded aliases, common patterns.
-- `references/` — deep-dive references for every subpath:
-  `setup`, `theme`, `core`, `hooks`, `form`, `charts`, `dates`, `notifications`,
-  `modals`, `spotlight`, `code-highlight`, `tiptap`, `dropzone`, `carousel`,
-  `nprogress`, `schedule`, and `component-api`.
-- `agents/` — per-agent configuration files (Copilot, Claude Code, Cursor,
-  Windsurf, Cline, Aider, Codex, Gemini, OpenAI, Roo Code, and a generic profile).
-
 ### `tailwind-v4`
 
 A skill for building scalable design systems with **Tailwind CSS v4**, using
